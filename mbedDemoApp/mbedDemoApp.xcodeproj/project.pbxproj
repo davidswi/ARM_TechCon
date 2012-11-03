@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C212D7B01642D7E500DA28F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C212D7AF1642D7E500DA28F1 /* UIKit.framework */; };
+		C212D7B21642D7E500DA28F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C212D7B11642D7E500DA28F1 /* Foundation.framework */; };
+		C212D7B41642D7E500DA28F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C212D7B31642D7E500DA28F1 /* CoreGraphics.framework */; };
+		C212D7BA1642D7E500DA28F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C212D7B81642D7E500DA28F1 /* InfoPlist.strings */; };
+		C212D7BC1642D7E500DA28F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C212D7BB1642D7E500DA28F1 /* main.m */; };
+		C212D7C01642D7E500DA28F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C212D7BF1642D7E500DA28F1 /* AppDelegate.m */; };
+		C212D7C31642D7E500DA28F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C212D7C11642D7E500DA28F1 /* MainStoryboard.storyboard */; };
+		C212D7C61642D7E500DA28F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C212D7C51642D7E500DA28F1 /* ViewController.m */; };
+		C212D7CE1642D7E500DA28F1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C212D7CD1642D7E500DA28F1 /* SenTestingKit.framework */; };
+		C212D7CF1642D7E500DA28F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C212D7AF1642D7E500DA28F1 /* UIKit.framework */; };
+		C212D7D01642D7E500DA28F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C212D7B11642D7E500DA28F1 /* Foundation.framework */; };
+		C212D7D81642D7E500DA28F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C212D7D61642D7E500DA28F1 /* InfoPlist.strings */; };
+		C212D7DB1642D7E500DA28F1 /* mbedDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C212D7DA1642D7E500DA28F1 /* mbedDemoAppTests.m */; };
+		C24F484D1642FE65008545F7 /* libSocketRocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F484C1642FE65008545F7 /* libSocketRocket.a */; };
+		C24F484F1642FEF6008545F7 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F484E1642FEF6008545F7 /* libicucore.dylib */; };
+		C24F48511642FEFE008545F7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F48501642FEFE008545F7 /* CFNetwork.framework */; };
+		C24F48531642FF08008545F7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24F48521642FF08008545F7 /* Security.framework */; };
+		C24F48551642FFD9008545F7 /* SocketRocket.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = C24F48541642FFD9008545F7 /* SocketRocket.xcodeproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C212D7D11642D7E500DA28F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C212D7A21642D7E400DA28F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C212D7AA1642D7E400DA28F1;
+			remoteInfo = mbedDemoApp;
+		};
+		C2E52EEC1643002600A95FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24F48541642FFD9008545F7 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B2082D1450F597009315AF;
+			remoteInfo = SocketRocket;
+		};
+		C2E52EEE1643002600A95FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24F48541642FFD9008545F7 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F668C880153E91210044DBAC;
+			remoteInfo = SocketRocketOSX;
+		};
+		C2E52EF01643002600A95FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24F48541642FFD9008545F7 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6BDA802145900D200FE3253;
+			remoteInfo = SRWebSocketTests;
+		};
+		C2E52EF21643002600A95FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24F48541642FFD9008545F7 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F62417E314D52F3C003CE997;
+			remoteInfo = TestChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C212D7AB1642D7E500DA28F1 /* mbedDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mbedDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C212D7AF1642D7E500DA28F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C212D7B11642D7E500DA28F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C212D7B31642D7E500DA28F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C212D7B71642D7E500DA28F1 /* mbedDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mbedDemoApp-Info.plist"; sourceTree = "<group>"; };
+		C212D7B91642D7E500DA28F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C212D7BB1642D7E500DA28F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C212D7BD1642D7E500DA28F1 /* mbedDemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mbedDemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		C212D7BE1642D7E500DA28F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C212D7BF1642D7E500DA28F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C212D7C21642D7E500DA28F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C212D7C41642D7E500DA28F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C212D7C51642D7E500DA28F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C212D7CC1642D7E500DA28F1 /* mbedDemoAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mbedDemoAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C212D7CD1642D7E500DA28F1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C212D7D51642D7E500DA28F1 /* mbedDemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mbedDemoAppTests-Info.plist"; sourceTree = "<group>"; };
+		C212D7D71642D7E500DA28F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C212D7D91642D7E500DA28F1 /* mbedDemoAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mbedDemoAppTests.h; sourceTree = "<group>"; };
+		C212D7DA1642D7E500DA28F1 /* mbedDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mbedDemoAppTests.m; sourceTree = "<group>"; };
+		C24F484C1642FE65008545F7 /* libSocketRocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSocketRocket.a; path = "../SocketRocket/build/Release-iphoneos/libSocketRocket.a"; sourceTree = "<group>"; };
+		C24F484E1642FEF6008545F7 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		C24F48501642FEFE008545F7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C24F48521642FF08008545F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C24F48541642FFD9008545F7 /* SocketRocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SocketRocket.xcodeproj; path = ../SocketRocket/SocketRocket.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C212D7A81642D7E400DA28F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24F48531642FF08008545F7 /* Security.framework in Frameworks */,
+				C24F48511642FEFE008545F7 /* CFNetwork.framework in Frameworks */,
+				C24F484F1642FEF6008545F7 /* libicucore.dylib in Frameworks */,
+				C24F484D1642FE65008545F7 /* libSocketRocket.a in Frameworks */,
+				C212D7B01642D7E500DA28F1 /* UIKit.framework in Frameworks */,
+				C212D7B21642D7E500DA28F1 /* Foundation.framework in Frameworks */,
+				C212D7B41642D7E500DA28F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C212D7C81642D7E500DA28F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C212D7CE1642D7E500DA28F1 /* SenTestingKit.framework in Frameworks */,
+				C212D7CF1642D7E500DA28F1 /* UIKit.framework in Frameworks */,
+				C212D7D01642D7E500DA28F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C212D7A01642D7E400DA28F1 = {
+			isa = PBXGroup;
+			children = (
+				C24F48541642FFD9008545F7 /* SocketRocket.xcodeproj */,
+				C24F48521642FF08008545F7 /* Security.framework */,
+				C24F48501642FEFE008545F7 /* CFNetwork.framework */,
+				C24F484E1642FEF6008545F7 /* libicucore.dylib */,
+				C24F484C1642FE65008545F7 /* libSocketRocket.a */,
+				C212D7B51642D7E500DA28F1 /* mbedDemoApp */,
+				C212D7D31642D7E500DA28F1 /* mbedDemoAppTests */,
+				C212D7AE1642D7E500DA28F1 /* Frameworks */,
+				C212D7AC1642D7E500DA28F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C212D7AC1642D7E500DA28F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C212D7AB1642D7E500DA28F1 /* mbedDemoApp.app */,
+				C212D7CC1642D7E500DA28F1 /* mbedDemoAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C212D7AE1642D7E500DA28F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C212D7AF1642D7E500DA28F1 /* UIKit.framework */,
+				C212D7B11642D7E500DA28F1 /* Foundation.framework */,
+				C212D7B31642D7E500DA28F1 /* CoreGraphics.framework */,
+				C212D7CD1642D7E500DA28F1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C212D7B51642D7E500DA28F1 /* mbedDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				C212D7BE1642D7E500DA28F1 /* AppDelegate.h */,
+				C212D7BF1642D7E500DA28F1 /* AppDelegate.m */,
+				C212D7C11642D7E500DA28F1 /* MainStoryboard.storyboard */,
+				C212D7C41642D7E500DA28F1 /* ViewController.h */,
+				C212D7C51642D7E500DA28F1 /* ViewController.m */,
+				C212D7B61642D7E500DA28F1 /* Supporting Files */,
+			);
+			path = mbedDemoApp;
+			sourceTree = "<group>";
+		};
+		C212D7B61642D7E500DA28F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C212D7B71642D7E500DA28F1 /* mbedDemoApp-Info.plist */,
+				C212D7B81642D7E500DA28F1 /* InfoPlist.strings */,
+				C212D7BB1642D7E500DA28F1 /* main.m */,
+				C212D7BD1642D7E500DA28F1 /* mbedDemoApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C212D7D31642D7E500DA28F1 /* mbedDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C212D7D91642D7E500DA28F1 /* mbedDemoAppTests.h */,
+				C212D7DA1642D7E500DA28F1 /* mbedDemoAppTests.m */,
+				C212D7D41642D7E500DA28F1 /* Supporting Files */,
+			);
+			path = mbedDemoAppTests;
+			sourceTree = "<group>";
+		};
+		C212D7D41642D7E500DA28F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C212D7D51642D7E500DA28F1 /* mbedDemoAppTests-Info.plist */,
+				C212D7D61642D7E500DA28F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2E52EE61643002500A95FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E52EED1643002600A95FC0 /* libSocketRocket.a */,
+				C2E52EEF1643002600A95FC0 /* SocketRocket.framework */,
+				C2E52EF11643002600A95FC0 /* SRWebSocketTests.octest */,
+				C2E52EF31643002600A95FC0 /* TestChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C212D7AA1642D7E400DA28F1 /* mbedDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C212D7DE1642D7E500DA28F1 /* Build configuration list for PBXNativeTarget "mbedDemoApp" */;
+			buildPhases = (
+				C212D7A71642D7E400DA28F1 /* Sources */,
+				C212D7A81642D7E400DA28F1 /* Frameworks */,
+				C212D7A91642D7E400DA28F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mbedDemoApp;
+			productName = mbedDemoApp;
+			productReference = C212D7AB1642D7E500DA28F1 /* mbedDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C212D7CB1642D7E500DA28F1 /* mbedDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C212D7E11642D7E500DA28F1 /* Build configuration list for PBXNativeTarget "mbedDemoAppTests" */;
+			buildPhases = (
+				C212D7C71642D7E500DA28F1 /* Sources */,
+				C212D7C81642D7E500DA28F1 /* Frameworks */,
+				C212D7C91642D7E500DA28F1 /* Resources */,
+				C212D7CA1642D7E500DA28F1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C212D7D21642D7E500DA28F1 /* PBXTargetDependency */,
+			);
+			name = mbedDemoAppTests;
+			productName = mbedDemoAppTests;
+			productReference = C212D7CC1642D7E500DA28F1 /* mbedDemoAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C212D7A21642D7E400DA28F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C212D7A51642D7E400DA28F1 /* Build configuration list for PBXProject "mbedDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C212D7A01642D7E400DA28F1;
+			productRefGroup = C212D7AC1642D7E500DA28F1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C2E52EE61643002500A95FC0 /* Products */;
+					ProjectRef = C24F48541642FFD9008545F7 /* SocketRocket.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C212D7AA1642D7E400DA28F1 /* mbedDemoApp */,
+				C212D7CB1642D7E500DA28F1 /* mbedDemoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C2E52EED1643002600A95FC0 /* libSocketRocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSocketRocket.a;
+			remoteRef = C2E52EEC1643002600A95FC0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E52EEF1643002600A95FC0 /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = C2E52EEE1643002600A95FC0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E52EF11643002600A95FC0 /* SRWebSocketTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SRWebSocketTests.octest;
+			remoteRef = C2E52EF01643002600A95FC0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C2E52EF31643002600A95FC0 /* TestChat.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestChat.app;
+			remoteRef = C2E52EF21643002600A95FC0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C212D7A91642D7E400DA28F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C212D7BA1642D7E500DA28F1 /* InfoPlist.strings in Resources */,
+				C212D7C31642D7E500DA28F1 /* MainStoryboard.storyboard in Resources */,
+				C24F48551642FFD9008545F7 /* SocketRocket.xcodeproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C212D7C91642D7E500DA28F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C212D7D81642D7E500DA28F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C212D7CA1642D7E500DA28F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C212D7A71642D7E400DA28F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C212D7BC1642D7E500DA28F1 /* main.m in Sources */,
+				C212D7C01642D7E500DA28F1 /* AppDelegate.m in Sources */,
+				C212D7C61642D7E500DA28F1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C212D7C71642D7E500DA28F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C212D7DB1642D7E500DA28F1 /* mbedDemoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C212D7D21642D7E500DA28F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C212D7AA1642D7E400DA28F1 /* mbedDemoApp */;
+			targetProxy = C212D7D11642D7E500DA28F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C212D7B81642D7E500DA28F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C212D7B91642D7E500DA28F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C212D7C11642D7E500DA28F1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C212D7C21642D7E500DA28F1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C212D7D61642D7E500DA28F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C212D7D71642D7E500DA28F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C212D7DC1642D7E500DA28F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "~/Documents/ARM_TechCon/SocketRocket/SocketRocket";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C212D7DD1642D7E500DA28F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "~/Documents/ARM_TechCon/SocketRocket/SocketRocket";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C212D7DF1642D7E500DA28F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mbedDemoApp/mbedDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "mbedDemoApp/mbedDemoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C212D7E01642D7E500DA28F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mbedDemoApp/mbedDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "mbedDemoApp/mbedDemoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C212D7E21642D7E500DA28F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mbedDemoApp.app/mbedDemoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mbedDemoApp/mbedDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "mbedDemoAppTests/mbedDemoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C212D7E31642D7E500DA28F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mbedDemoApp.app/mbedDemoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mbedDemoApp/mbedDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "mbedDemoAppTests/mbedDemoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C212D7A51642D7E400DA28F1 /* Build configuration list for PBXProject "mbedDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C212D7DC1642D7E500DA28F1 /* Debug */,
+				C212D7DD1642D7E500DA28F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C212D7DE1642D7E500DA28F1 /* Build configuration list for PBXNativeTarget "mbedDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C212D7DF1642D7E500DA28F1 /* Debug */,
+				C212D7E01642D7E500DA28F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C212D7E11642D7E500DA28F1 /* Build configuration list for PBXNativeTarget "mbedDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C212D7E21642D7E500DA28F1 /* Debug */,
+				C212D7E31642D7E500DA28F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C212D7A21642D7E400DA28F1 /* Project object */;
+}
